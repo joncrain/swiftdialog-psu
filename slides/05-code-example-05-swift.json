@@ -1,8 +1,7 @@
 {
-  "icon": "none",
-  "title" : "/usr/local/bin/dialog",
+  "title" : "swift ./code/example-swift.swift",
   "message" : "none",
-  "webcontent" : "https://raw.githubusercontent.com/bartreardon/swiftDialog/4b1cba336386bce354fb23bdd23207a4ce115eb1/dialog/Package/pkgroot/usr/local/bin/dialog",
-  "moveable" : "true",
-  "quitoninfo" : "true"
+  "icon" : "none",
+  "webcontent" : "https://raw.githubusercontent.com/joncrain/swiftdialog-psu/main/code/example-swift.swift",
+  "moveable" : "true"
 }

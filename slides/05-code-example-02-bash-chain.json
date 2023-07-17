@@ -1,8 +1,0 @@
-{
-  "icon": "none",
-  "title" : "/usr/local/bin/dialog",
-  "message" : "none",
-  "webcontent" : "https://raw.githubusercontent.com/bartreardon/swiftDialog/4b1cba336386bce354fb23bdd23207a4ce115eb1/dialog/Package/pkgroot/usr/local/bin/dialog",
-  "moveable" : "true",
-  "quitoninfo" : "true"
-}

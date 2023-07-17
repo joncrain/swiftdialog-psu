@@ -1,0 +1,15 @@
+{
+  "title": "System Notifications",
+  "icon": "none",
+  "button1text": "Next",
+  "image": [
+    {
+      "caption": "Basic notification",
+      "imagename": "./imgs/system-notification.png"
+    },
+    {
+      "caption": "Customized Icon",
+      "imagename": "./imgs/custom-system-notification.png"
+    }
+  ]
+}

@@ -1,5 +1,4 @@
 #!/bin/zsh
-# courtesy of @BigMacAdmin
 
 dialog --message "Wait for Another Process" --button1disabled &
 PID=$!

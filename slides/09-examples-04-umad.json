@@ -1,8 +1,8 @@
 {
   "messagefont": "size=20",
-  "title" : "Setup Your Mac",
+  "title" : "MDM Migration Helper",
   "icon" : "none",
   "button1text" : "Continue",
-  "message" : "# umad \n\n ## github.com/joncrain/swiftDialog-scripts",
+  "message" : "# Based on umad by Erik Gomez \n\n ## github.com/joncrain/swiftDialog-scripts",
   "messagealignment" : "center"
 }

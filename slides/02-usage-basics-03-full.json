@@ -1,8 +1,8 @@
 {
   "messagefont": "name=Menlo-Bold,colour=#777,size=25",
-  "message": "$ dialog --title 'Usage Basics' \\\n\n --message 'Hello World!' \\\n\n --messagealignment center --button1text Continue \\\n\n --button2text Back --width 900 --height 500 \\\n\n --messageposition center --moveable --ontop \\\n\n --messagefont name=Menlo-Bold,colour=#777,size=25 ",
+  "message": "$ dialog --title 'Usage Basics' --message 'Hello World!' --messagealignment left --button1text Continue --button2text Back --width 900 --height 500 --messageposition center --moveable --ontop --messagefont name=Menlo-Bold,colour=#777,size=25 ",
   "icon": "none",
-  "messagealignment": "center",
+  "messagealignment": "left",
   "messageposition": "center",
   "title": "Usage Basics"
 }

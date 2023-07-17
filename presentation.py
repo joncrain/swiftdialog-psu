@@ -120,9 +120,15 @@ def run_slide(file_name):
         slide.content_dict.update(json.load(f))
 
     if slide.content_dict["title"] == "Setup Your Mac":
+        logging.info("Running Setup your mac demo")
         cmd = [f"{FILE_LOCATION}/code/setup_your_mac.sh"]
         run_subp(cmd)
-    elif slide.content_dict["title"] == "Unity Bootstrap":
+    elif slide.content_dict["title"] == "MDM Migration Helper":
+        logging.info("Running MDM migration demo")
+        cmd = [f"{FILE_LOCATION}/code/mdm_check"]
+        run_subp(cmd)
+    elif slide.content_dict["title"] == "Bootstrap":
+        logging.info("Running Unity Bootstrap demo")
         logging.info("Running demo")
         cmd = [
             "/usr/local/munki/munki-python",
