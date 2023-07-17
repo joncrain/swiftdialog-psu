@@ -1,7 +1,7 @@
 # Customizable Dialogs for macOS
 ## Using swiftDialog for Better User Experience
 
-This repository contains code snippets, code examples and the presentation from the PSU Mac Admins Conference 2023.
+Resources for the PSU Mac Admins Conference 2023 session.
 
 Or git clone the repo:
 
