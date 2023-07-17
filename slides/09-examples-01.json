@@ -1,0 +1,9 @@
+{
+  "messagefont": "size=50",
+  "title" : "none",
+  "icon" : "none",
+  "button1text" : "Continue",
+  "message" : "# Demo",
+  "messageposition" : "center",
+  "messagealignment" : "center"
+}

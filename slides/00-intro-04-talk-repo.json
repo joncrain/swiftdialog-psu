@@ -1,0 +1,13 @@
+{
+  "icon": "none",
+  "title": "github.com/joncrain/swiftdialog-psu",
+  "quitoninfo": "true",
+  "infobuttontext": "More Info",
+  "infobuttonaction": "https://github.com/joncrain/swiftdialog-psu",
+  "image": [
+    {
+      "caption": "",
+      "imagename": "./imgs/frame.png"
+    }
+  ]
+}

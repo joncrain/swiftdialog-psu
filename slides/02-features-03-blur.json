@@ -1,0 +1,10 @@
+{
+  "messagefont": "size=50",
+  "title": "swiftDialog Features",
+  "icon" : "none",
+  "button1text" : "Next",
+  "message" : "# Background Blur",
+  "blurscreen": "true",
+  "messageposition": "center",
+  "messagealignment" : "center"
+}

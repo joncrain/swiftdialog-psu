@@ -1,0 +1,8 @@
+{
+  "messagefont": "size=20",
+  "title" : "Setup Your Mac",
+  "icon" : "none",
+  "button1text" : "Continue",
+  "message" : "# umad \n\n ## github.com/joncrain/swiftDialog-scripts",
+  "messagealignment" : "center"
+}

@@ -1,0 +1,12 @@
+{
+  "title": "none",
+  "icon": "none",
+  "infotext": "Source: Apple",
+  "button1text": "Continue",
+  "image": [
+    {
+      "caption": "",
+      "imagename": "./imgs/ralph.png"
+    }
+  ]
+}

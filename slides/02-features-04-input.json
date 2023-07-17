@@ -1,0 +1,16 @@
+{
+  "messagefont": "size=30",
+  "title": "none",
+  "icon": "./imgs/Stop.jpeg",
+  "iconsize": "300",
+  "centericon": "true",
+  "button1text": "Next",
+  "message": "# Text Input",
+  "textfield": [
+    { "title": "Name", "textfield": true, "required": true },
+    { "title": "Quest", "textfield": true, "prompt": "To seek the Holy Grail" },
+    { "title": "Favourite Colour", "secure": true }
+  ],
+  "messageposition": "center",
+  "messagealignment": "center"
+}

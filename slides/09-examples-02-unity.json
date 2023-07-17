@@ -1,0 +1,8 @@
+{
+  "messagefont": "size=20",
+  "title" : "Unity Bootstrap",
+  "icon" : "none",
+  "button1text" : "Continue",
+  "message" : "## github.com/joncrain/swiftDialog-scripts",
+  "messagealignment" : "center"
+}

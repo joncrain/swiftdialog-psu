@@ -1,0 +1,18 @@
+{
+  "messagefont": "size=30",
+  "title": "Unity IT",
+  "icon": "none",
+  "image": "./imgs/Screenshot 2023-06-19 at 9.44.08 AM.png",
+  "button1text": "Stop Annoying Me",
+  "quitoninfo": "true",
+  "messagealignment": "center",
+  "image": [
+    {
+      "caption": "Whatcha doin?",
+      "imagename": "./imgs/Screenshot 2023-06-19 at 9.44.08 AM.png"
+    },
+    {
+      "imagename": "./imgs/Screenshot 2023-07-15 at 9.08.05 PM.png"
+    }
+  ]
+}

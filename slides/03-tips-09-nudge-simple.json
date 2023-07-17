@@ -1,0 +1,12 @@
+{
+  "messagefont": "size=25",
+  "title" : "none",
+  "bannerimage": "./imgs/banner.png",
+  "icon" : "none",
+  "button1text" : "Update Device",
+  "button2text" : "Remind Me Later",
+  "infobuttontext": "More Info",
+  "helpmessage": "Apple releases important updates for macOS on a regular basis.\n\n These updates often contain critical security fixes that will protect your device from compromise.\n\n For more information about our update policies, please see:\n\nwiki.company.com",
+  "message" : "## Your device requires a security update\n\n Days Remaining to Update: **5**\n\n Your OS version: **13.2**   Required minimum version: **13.4**",
+  "messagealignment" : "center"
+}

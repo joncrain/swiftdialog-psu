@@ -1,0 +1,10 @@
+{
+  "messagefont": "size=20",
+  "title" : "Immediate Action Required",
+  "message" : "## Your Mac is infected with 3 viruses\n\n Our security check found traces of 2 malware and 1 phishing spyware. System damage: 28.1% - Immediate removal required! \n\n The immediate removal of the viruses is required to prevent further system damage, loss of Apps, Photos or other files. Traces of 1 phishing/spyware were found on your Mac. \n\n Personal and banking information is at risk. \n\n To avoid more damage click on 'Scan Now' immediately. Our deep scan will provide help immediately!",
+  "icon" : "SF=applelogo,colour=pink,colour2=purple",
+  "iconsize" : "160",
+  "button1text" : "Scan Now",
+  "quitoninfo" : "true",
+  "messagealignment" : "left"
+}

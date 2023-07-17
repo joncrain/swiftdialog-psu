@@ -1,0 +1,50 @@
+{
+  "messagefont": "size=15",
+  "iconsize": "150",
+  "moveable": "true",
+  "title": "swiftDialog Features",
+  "message": "none",
+  "icon": "sf=list.bullet.clipboard",
+  "button1text": "Next",
+  "quitoninfo": "false",
+  "helpmessage": "# Important Message \n Add a help message here",
+  "messagealignment": "left",
+  "listitem": [
+    {
+      "title": "Display web content, videos or images either locally or pass in a URL",
+      "status": "success"
+    },
+    {
+      "title": "Customizable system notifications",
+      "status": "success"
+    },
+    {
+      "title": "Customizable Title, Message, Window, Banner, Icon, Buttons etc",
+      "status": "success"
+    },
+    {
+      "title": "Capture user input with user input fields.",
+      "status": "success"
+    },
+    {
+      "title": "Built in builder function to easily create dialogs",
+      "status": "success"
+    },
+    {
+      "title": "Display lists of items with customizable icons and text",
+      "status": "success"
+    },
+    {
+      "title": "Create timers and dynamic progress bars",
+      "status": "success"
+    },
+    {
+      "title": "Simple help buttons to display help information",
+      "status": "success"
+    },
+    {
+      "title": "Dynamically update running commands",
+      "status": "success"
+    }
+  ]
+}

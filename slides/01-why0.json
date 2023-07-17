@@ -1,0 +1,12 @@
+{
+  "title": "none",
+  "icon": "none",
+  "infotext": "",
+  "messagefont": "size=70",
+  "button1text": "Next",
+  "message": "# Why swiftDialog?",
+  "messageposition": "center",
+  "button1disabled": "true",
+  "button2disabled": "true",
+  "messagealignment": "center"
+}

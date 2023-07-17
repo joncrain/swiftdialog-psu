@@ -1,0 +1,12 @@
+{
+  "messagefont": "size=50",
+  "title": "swiftDialog Features",
+  "icon" : "none",
+  "button1text" : "Next",
+  "message" : "# Background Image",
+  "background": "./imgs/logo.png",
+  "bgposition": "bottom",
+  "bgscale": "fill",
+  "messageposition": "center",
+  "messagealignment" : "center"
+}

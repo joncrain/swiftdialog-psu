@@ -1,0 +1,14 @@
+{
+  "messagefont": "size=24",
+  "iconsize" : "223.69743530499076",
+  "moveable" : "true",
+  "title" : "none",
+  "centericon" : "true",
+  "message" : "# Thank you! \n\n ### Customizable Dialogs for macOS:\n### Using swiftDialog for Better User Experience\n\n\n\n#### Jon Crain | @joncrain | July 2023 \n\n Survey: bit.ly/psumac2023-151",
+  "icon" : "./imgs/2023 MacAdmins Logo-Landscape-White.png",
+  "button1text" : "Let's Go!",
+  "infotext" : "Jon Crain | @joncrain | July 2023",
+  "messagealignment" : "center",
+  "button2text" : "Quit",
+  "fullscreen" : "true"
+}

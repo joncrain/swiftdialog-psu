@@ -1,0 +1,8 @@
+{
+  "messagefont": "name=Menlo-Bold,colour=#777,size=25",
+  "message": "$ dialog --jsonfile ./dialog.json",
+  "icon": "none",
+  "messagealignment": "center",
+  "messageposition": "center",
+  "title": "Usage Basics"
+}

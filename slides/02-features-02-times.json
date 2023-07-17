@@ -1,0 +1,10 @@
+{
+  "messagefont": "size=50",
+  "title": "swiftDialog Features",
+  "icon" : "none",
+  "button1text" : "Next",
+  "message" : "# Timers!",
+  "timer": 5,
+  "messageposition": "center",
+  "messagealignment" : "center"
+}

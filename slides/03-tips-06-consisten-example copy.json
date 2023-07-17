@@ -1,0 +1,10 @@
+{
+  "messagefont": "size=25",
+  "title" : "none",
+  "bannerimage": "./imgs/banner.png",
+  "icon" : "none",
+  "button1text" : "Next",
+  "helpmessage": "# Message Verification \n Information about why we are alerting. \n\n For more information or to verify this message, please go to: \n\n http://yourcompanieshelpdesk.com",
+  "message" : "# Creating Trustworthy Alerts \n\n * ### Use high quality assets \n * ### Include your _current_ logo. \n * ### Add verification",
+  "messagealignment" : "center"
+}

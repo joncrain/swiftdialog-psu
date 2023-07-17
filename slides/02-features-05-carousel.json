@@ -1,0 +1,20 @@
+{
+  "title": "Image Carousel",
+  "icon": "none",
+  "infotext": "",
+  "button1text": "Next",
+  "image": [
+    {
+      "caption": "xkcd.com/927/",
+      "imagename": "https://imgs.xkcd.com/comics/standards.png"
+    },
+    {
+      "caption": "xkcd.com/979/",
+      "imagename": "https://imgs.xkcd.com/comics/wisdom_of_the_ancients.png"
+    },
+    {
+      "caption": "xkcd.com/233/",
+      "imagename": "https://imgs.xkcd.com/comics/a_new_captcha_approach.png"
+    }
+  ]
+}
