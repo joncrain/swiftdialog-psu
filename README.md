@@ -7,6 +7,7 @@ Or git clone the repo:
 
 ```bash
 git clone https://github.com/joncrain/swiftdialog-psu.git
+git lfs pull
 ```
 
 ## Presentation
