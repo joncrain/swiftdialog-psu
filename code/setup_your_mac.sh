@@ -445,7 +445,7 @@ updateScriptLog "PRE-FLIGHT CHECK: Complete"
 
 macOSproductVersion="$( sw_vers -productVersion )"
 macOSbuildVersion="$( sw_vers -buildVersion )"
-serialNumber=$( system_profiler SPHardwareDataType | grep Serial |  awk '{print $NF}' )
+serialNumber="NGGYUNGLYD"
 timestamp="$( date '+%Y-%m-%d-%H%M%S' )"
 dialogVersion=$( /usr/local/bin/dialog --version )
 

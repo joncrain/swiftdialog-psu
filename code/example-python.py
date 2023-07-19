@@ -19,7 +19,7 @@ class DialogAlert:
             "height": "500",
             "width": "900",
             # Icon Options
-            "icon": f"{IMG_LOCATION}/2023 MacAdmins Logo-Circle-Black.png",
+            "icon": os.path.join(IMG_LOCATION, "2023 MacAdmins Logo-Circle-White.png"),
             "iconsize": "300",
             # Content
             "title": "none",

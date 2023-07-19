@@ -8,7 +8,8 @@ import time
 
 DIALOG = "/usr/local/bin/dialog"
 DIALOG_COMMAND_FILE = "/var/tmp/dialog.log"
-FILE_LOCATION = "/Users/jon.crain/Documents/SwiftDialog/"
+SCRIPT_PATH = os.path.abspath(__file__)
+FILE_LOCATION = os.path.dirname(SCRIPT_PATH)
 IMG_LOCATION = os.path.join(FILE_LOCATION, "imgs")
 
 
