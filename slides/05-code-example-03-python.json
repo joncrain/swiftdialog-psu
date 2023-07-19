@@ -1,5 +1,6 @@
 {
-  "title" : "python3 ./code/example-python.py",
+  "title" : "example-python.py",
+  "infotext" : "python3 ./code/example-python.py",
   "message" : "none",
   "icon" : "none",
   "webcontent" : "https://raw.githubusercontent.com/joncrain/swiftdialog-psu/main/code/example-python.py",

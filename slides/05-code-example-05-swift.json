@@ -1,5 +1,6 @@
 {
-  "title" : "swift ./code/example-swift.swift",
+  "title" : "example-swift.swift",
+  "infotext" : "swift ./code/example-swift.swift",
   "message" : "none",
   "icon" : "none",
   "webcontent" : "https://raw.githubusercontent.com/joncrain/swiftdialog-psu/main/code/example-swift.swift",

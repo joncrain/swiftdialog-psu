@@ -1,8 +1,9 @@
 {
   "messagefont": "size=20",
-  "title" : "Setup Your Mac",
+  "title" : "setup_your_mac.sh",
   "icon" : "none",
   "button1text" : "Continue",
   "message" : "# #setup-your-mac \n\n ## github.com/dan-snelson/Setup-Your-Mac",
-  "messagealignment" : "center"
+  "messagealignment" : "center",
+  "messageposition" : "center"
 }

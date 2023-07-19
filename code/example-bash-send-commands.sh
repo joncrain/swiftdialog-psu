@@ -27,8 +27,6 @@ while true; do
   sleep 1
 done
 
-/bin/echo "button1: enable" >> /var/tmp/dialog.log
-
 case $? in
   0)
   dialog --message "Pressed OK"

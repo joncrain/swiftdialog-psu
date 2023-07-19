@@ -36,7 +36,7 @@
 
 scriptVersion="1.11.0"
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin
-scriptLog="${4:-"/var/log/org.churchofjesuschrist.log"}"                        # Parameter 4: Script Log Location [ /var/log/org.churchofjesuschrist.log ] (i.e., Your organization's default location for client-side logs)
+scriptLog="${4:-"/var/log/org.company.log"}"                        # Parameter 4: Script Log Location [ /var/log/org.company.log ] (i.e., Your organization's default location for client-side logs)
 debugMode="${5:-"verbose"}"                                                     # Parameter 5: Debug Mode [ verbose (default) | true | false ]
 welcomeDialog="${6:-"userInput"}"                                               # Parameter 6: Welcome dialog [ userInput (default) | video | false ]
 completionActionOption="${7:-"Restart Attended"}"                               # Parameter 7: Completion Action [ wait | sleep (with seconds) | Shut Down | Shut Down Attended | Shut Down Confirm | Restart | Restart Attended (default) | Restart Confirm | Log Out | Log Out Attended | Log Out Confirm ]
@@ -675,8 +675,8 @@ else
 fi
 
 # Create `overlayicon` from Self Service's custom icon (thanks, @meschwartz!)
-xxd -p -s 260 "$(defaults read /Library/Preferences/com.jamfsoftware.jamf self_service_app_path)"/Icon$'\r'/..namedfork/rsrc | xxd -r -p > /var/tmp/overlayicon.icns
-overlayicon="/var/tmp/overlayicon.icns"
+# xxd -p -s 260 "$(defaults read /Library/Preferences/com.jamfsoftware.jamf self_service_app_path)"/Icon$'\r'/..namedfork/rsrc | xxd -r -p > /var/tmp/overlayicon.icns
+overlayicon="/Library/CPE/imgs/unity-box.png"
 
 # Uncomment to use generic, Self Service icon as overlayicon
 # overlayicon="https://ics.services.jamfcloud.com/icon/hash_aa63d5813d6ed4846b623ed82acdd1562779bf3716f2d432a8ee533bba8950ee"

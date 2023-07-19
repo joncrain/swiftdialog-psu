@@ -1,5 +1,6 @@
 {
-  "title" : "go run ./code/example-golang.go",
+  "title" : "example-golang.go",
+  "infotext" : "go run ./code/example-golang.go",
   "message" : "none",
   "icon" : "none",
   "webcontent" : "https://raw.githubusercontent.com/joncrain/swiftdialog-psu/main/code/example-golang.go",

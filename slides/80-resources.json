@@ -1,0 +1,9 @@
+{
+  "messagefont": "size=20",
+  "title" : "swiftDialog Resources",
+  "icon" : "",
+  "iconsize": "200",
+  "button1text" : "Continue",
+  "message" : " ## More script examples: \n *  https://github.com/joncrain/swiftDialog-scripts \n *  https://github.com/acodega/dialog-scripts \n * https://github.com/dan-snelson/dialog-scripts \n * https://github.com/SecondSonConsulting/swiftDialogExamples \n\n ## More Tool Examples: \n * https://github.com/smithjw/swiftEnrolment \n * https://github.com/txhaflaire/DiskEncrypter \n * https://github.com/grahampugh/erase-install \n * https://github.com/Installomator/Installomator ",
+  "messagealignment" : "left"
+}

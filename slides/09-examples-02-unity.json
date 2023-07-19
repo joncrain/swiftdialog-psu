@@ -1,8 +1,9 @@
 {
   "messagefont": "size=20",
-  "title" : "Bootstrap",
+  "title" : "Unity Bootstrap",
   "icon" : "none",
   "button1text" : "Continue",
-  "message" : "## github.com/joncrain/swiftDialog-scripts",
-  "messagealignment" : "center"
+  "message" : "# depnotify-swiftdialog \n\n ## github.com/joncrain/swiftDialog-scripts",
+  "messagealignment" : "center",
+  "messageposition" : "center"
 }

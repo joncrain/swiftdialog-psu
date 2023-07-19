@@ -33,7 +33,7 @@ DEFAULT_OPTIONS=(
     --height 300
     --infobuttontext "More Info"
     --infobuttonaction $HELP_LINK
-    --helpmessage "Verify this message at [$HELP_LINK]($HELP_LINK)"
+    --helpmessage "All devices are required to be enrolled in our MDM solution. MDM is used to manage your device for initial setup configuration, for data protection in cases of loss or theft, and for other administrative purposes. \n\n Verify this message at [$HELP_LINK]($HELP_LINK)"
     --commandfile $DIALOG_COMMAND_FILE
 )
 
@@ -55,18 +55,18 @@ exit_script () {
 ########### Dialog Check ###################
 # Check if something else has already called dialog
 ############################################
-i=0
-while /usr/bin/pgrep Dialog > /dev/null 2>&1 && [ $i -lt 60 ]
-do
-    write_log "Waiting for other dialogs"
-    /bin/sleep 1
-    ((i++))
-done
+# i=0
+# while /usr/bin/pgrep Dialog > /dev/null 2>&1 && [ $i -lt 60 ]
+# do
+#     write_log "Waiting for other dialogs"
+#     /bin/sleep 1
+#     ((i++))
+# done
 
-if /usr/bin/pgrep Dialog > /dev/null 2>&1; then
-    write_log "Other dialogs are present. Quitting script"
-    exit_script 0
-fi
+# if /usr/bin/pgrep Dialog > /dev/null 2>&1; then
+#     write_log "Other dialogs are present. Quitting script"
+#     exit_script 0
+# fi
 
 if [[ -e ${DIALOG_COMMAND_FILE} ]]; then rm ${DIALOG_COMMAND_FILE}; fi
 

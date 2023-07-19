@@ -1,8 +1,9 @@
 {
   "messagefont": "size=20",
-  "title" : "MDM Migration Helper",
+  "title" : "mdm_check.sh",
   "icon" : "none",
   "button1text" : "Continue",
-  "message" : "# Based on umad by Erik Gomez \n\n ## github.com/joncrain/swiftDialog-scripts",
-  "messagealignment" : "center"
+  "message" : "# MDM Migration Helper \n\n ## github.com/joncrain/swiftDialog-scripts",
+  "messagealignment" : "center",
+  "messageposition" : "center"
 }

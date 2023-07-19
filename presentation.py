@@ -119,25 +119,8 @@ def run_slide(file_name):
     with open(file_name, "r") as f:
         slide.content_dict.update(json.load(f))
 
-    if slide.content_dict["title"] == "Setup Your Mac":
-        logging.info("Running Setup your mac demo")
-        cmd = [f"{FILE_LOCATION}/code/setup_your_mac.sh"]
-        run_subp(cmd)
-    elif slide.content_dict["title"] == "MDM Migration Helper":
-        logging.info("Running MDM migration demo")
-        cmd = [f"{FILE_LOCATION}/code/mdm_check"]
-        run_subp(cmd)
-    elif slide.content_dict["title"] == "Bootstrap":
-        logging.info("Running Unity Bootstrap demo")
-        logging.info("Running demo")
-        cmd = [
-            "/usr/local/munki/munki-python",
-            "/Library/CPE/bootstrap/cache/bootstrap-test-dialog.py",
-        ]
-        run_subp(cmd)
-
     logging.info(f"Alert for {file_name}")
-
+    title = slide.content_dict["title"]
     if "01-why0.json" in file_name:
         message_steps = [
             "# CocoaDialog",
@@ -172,6 +155,37 @@ def run_slide(file_name):
         }
     else:
         alert = slide.alert(slide.content_dict)
+
+    titles = [
+        "example-bash-chaining-commands.sh",
+        "example-bash-send-commands.sh",
+        "example-python.py",
+        "example-golang.go",
+        "example-swift.swift",
+        "setup_your_mac.sh",
+        "mdm_check.sh",
+    ]
+
+    if title in titles:
+        file_extension = title.split(".")[-1]
+        logging.info("Running demo")
+        if file_extension == "sh":
+            cmd = [f"{FILE_LOCATION}code/{title}"]
+        elif file_extension == "py":
+            cmd = ["/usr/local/munki/munki-python", f"{FILE_LOCATION}code/{title}"]
+        elif file_extension == "go":
+            cmd = ["go", "run", f"{FILE_LOCATION}code/{title}"]
+        elif file_extension == "swift":
+            cmd = ["swift", f"{FILE_LOCATION}code/{title}"]
+        run_subp(cmd)
+    if title == "Unity Bootstrap":
+        logging.info("Running Unity Bootstrap demo")
+        logging.info("Running demo")
+        cmd = [
+            "/usr/local/munki/munki-python",
+            "/Library/CPE/bootstrap/cache/bootstrap-test-dialog.py",
+        ]
+        run_subp(cmd)
 
     return alert
 
